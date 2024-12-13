@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'events',
+    'blogs',
 
 ]
 
@@ -76,16 +76,7 @@ WSGI_APPLICATION = 'event_management.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'eventmanagement',
-        'USER': 'root',
-        'PASSWORD': 'Jatinjoker1@',
-        'HOST': '127.0.0.1',
-        'PORT': '3306',
-    }
-}
+
 
 
 
